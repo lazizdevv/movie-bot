@@ -45,7 +45,8 @@ bot.on("message", (msg) => {
     }
 
     bot.sendVideo(msg.chat.id, movie.file_id, {
-      caption: `🎬 ${movie.name}`
+      caption: `🎬 ${movie.name}`,
+      protect_content: true
     });
   }
 });
