@@ -1,3 +1,7 @@
 {
-  "movies": []
+  "movies": [],
+  "users": {},
+  "stats": {
+    "totalSends": 0
+  }
 }
